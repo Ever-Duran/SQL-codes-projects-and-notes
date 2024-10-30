@@ -1,0 +1,11 @@
+DDL - Create, Drop, Alter
+DCL - Grant, Deny, Revoke
+DML - Select, Insert, Update, Delete
+
+Syntax for table creation:
+CREATE TABLE: It starts the new table definition.
+Column name: Unique for each column
+Data type: It specifies what kind of information we're going to store.
+Restrictions: NOT NULL, PRIMARY KEY, FOREIGN KEY, etc
+
+Best practices
