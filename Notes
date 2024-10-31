@@ -17,5 +17,10 @@ Syntax on table creation:
 * CHECK: Validates data based on specific conditions.
 * UNIQUE: Assures non-key unique values.
 
+MODIFYING EXISTING TABLES:
+* ALTER TABLE: Starts modifying an existing table.
+* ADD COLUMN: Adds new columns to the table.
+* ALTER COLUMN: Modifies the definition of existing columns.
+* DROP COLUMN: Deletes columns from a table.
 
 
