@@ -24,3 +24,6 @@ MODIFYING EXISTING TABLES:
 * DROP COLUMN: Deletes columns from a table.
 
 
+JOIN
+
+Examples 
