@@ -23,6 +23,21 @@ MODIFYING EXISTING TABLES:
 * ALTER COLUMN: Modifies the definition of existing columns.
 * DROP COLUMN: Deletes columns from a table.
 
+******************************
+
+******************************
+HOW TO CREATE A DATABASE?
+
+CREATE DATABASE Students;
+
+****
+Show the database:
+
+SHOW DATABASES;
+
+
+
+
 
 JOIN
 
