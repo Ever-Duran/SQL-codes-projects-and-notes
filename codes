@@ -1,0 +1,10 @@
+#SQL Workbench CURRENT_TIME
+#In this code sample, I encountered some issues as the sample didn't include parenthesis. I reviewed the online documentation and google but the options were not working #for me. I tried with CURRENT_TIMESTAMP but no results. I came up with the idea of adding CURRENT_TIME between parenthesis and it worked!
+
+CREATE TABLE profesores(
+	id_profesor INT PRIMARY KEY,
+    nombre_profesor VARCHAR(100),
+    salario DECIMAL(10,2) DEFAULT 1000.00,
+    fecha_contratacion DATE DEFAULT (CURRENT_DATE),
+    edad INT CHECK (edad BETWEEN 25 AND 70)
+);
