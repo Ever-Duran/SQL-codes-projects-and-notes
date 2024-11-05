@@ -35,8 +35,15 @@ Show the database:
 
 SHOW DATABASES;
 
+****
+Create a table
 
-
+CREATE TABLE estudiantes(
+  id_estudiante INT PRIMARY KEY,
+    nombre VARCHAR(100),
+  edad INT,
+    fecha_nacimiento DATE
+);
 
 
 JOIN
