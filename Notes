@@ -45,6 +45,9 @@ CREATE TABLE estudiantes(
     fecha_nacimiento DATE
 );
 
+****
+We can see the table with describe
+DESCRIBE estudiantes;
 
 JOIN
 
