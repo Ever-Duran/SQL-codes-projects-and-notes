@@ -67,6 +67,8 @@ CREATE TABLE inscriptions(
 );
 
 *****
+Add a table with decimals and dates
+
 CREATE TABLE teachers(
   id_teacher INT PRIMARY KEY,
     teacher_name VARCHAR(100),
