@@ -67,6 +67,17 @@ CREATE TABLE inscriptions(
 );
 
 *****
+CREATE TABLE teachers(
+  id_teacher INT PRIMARY KEY,
+    teacher_name VARCHAR(100),
+    salary DECIMAL(10,2) DEFAULT 1000.00,
+    hiring_date DATE DEFAULT (CURRENT_DATE),
+    age INT CHECK (age BETWEEN 25 AND 70)
+);
+
+
+
+****
 
 JOIN
 
