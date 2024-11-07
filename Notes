@@ -38,16 +38,35 @@ SHOW DATABASES;
 ****
 Create a table
 
-CREATE TABLE estudiantes(
+CREATE TABLE students(
   id_estudiante INT PRIMARY KEY,
     nombre VARCHAR(100),
   edad INT,
-    fecha_nacimiento DATE
+    birthday DATE
 );
 
 ****
 We can see the table with describe
 DESCRIBE estudiantes;
+
+CREATE TABLE subjects(
+  id_subject INT PRIMARY KEY,
+    subject_name VARCHAR(100),
+    teacher VARCHAR(100)
+);
+
+
+****
+how to create a table with foreign keys:
+
+CREATE TABLE inscriptions(
+  id_student INT,
+    id_subject INT,
+    FOREIGN KEY (id_student) REFERENCES students(id_student),
+    FOREIGN KEY (id_subject) REFERENCES subjects(id_subject)
+);
+
+*****
 
 JOIN
 
