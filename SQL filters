@@ -1,5 +1,15 @@
 WHERE - it filters results
 
-ORDER BY - Organizes data
 
+****
+ORDER BY - Organizes data
+SELECT * FROM CITY ORDER BY NAME ASC, COUNTRYCODE DESC
+****
+
+****
 TOP - LIMIT it limits results.
+SELECT TOP 5 * FROM CITY ORDER BY POPULATION DESC
+
+SELECT * FROM CITY LIMIT TO 5
+
+****
