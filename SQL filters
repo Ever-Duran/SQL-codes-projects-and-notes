@@ -19,7 +19,17 @@ SELECT * FROM CITY WHERE POPULATION BETWEEN 5000 AND 50000
 
 NOT BETWEEN 
 SELECT * FROM CITY WHERE POPULATION NOT BETWEEN 5000 AND 50000
+
+selects values that are not included into that range
+
 ****
+
+LIKE - Patterns search
+
+%  It represents any squence of patterns
+
+- It represents one character in the search
+
 
 
 
