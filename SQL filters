@@ -30,6 +30,17 @@ LIKE - Patterns search
 
 - It represents one character in the search
 
+'z%'
+(it shows elements which first character is z)
+
+'%z' 
+(it shows elements which last character is z)
+
+'___z%'
+(it shows elements which 3rd character is z)
+
+'%z%' 
+(it shows elements which middle character is z)
 
 
 
