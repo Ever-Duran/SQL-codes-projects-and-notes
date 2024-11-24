@@ -91,6 +91,28 @@ DROP TABLE inscriptions;
 
 ****
 
-JOIN
+JOIN - Table combinations
+inner join - It takes rows when there's a coincidence between the tables
 
-Examples 
+left join - It includes all the rows from the left table
+
+right join - It includes all the rows from the right table
+
+Examples :
+
+SELECT RENTAL_DATE, NAME FROM RENTAL
+
+SELECT * FROM INVENTORY WHERE INVENTORY_ID = 367
+
+SELECT * FROM FILE WHERE FILM_id = 60
+
+(We try to use the join to keep the film name)
+
+SELECT RENTAL_ID, RENTAL_DATE, RENTAL.INVENTORY_ID FROM RENTAL 
+INNER JOIN INVENTORY ON RENTAL.INVENTORY_ID = INVENTORY.INVENTORY_ID
+
+
+-SELECT * FROM INVENTORY WHERE INVENTORY_ID = 367
+
+-SELECT * FROM FILE WHERE FILM_ID = 60
+
