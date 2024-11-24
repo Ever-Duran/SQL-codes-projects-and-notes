@@ -42,7 +42,15 @@ LIKE - Patterns search
 '%z%' 
 (it shows elements which middle character is z)
 
+SELECT * FROM COUNTRY WHERE NAME LIKE 'A%'
+
+(It shows countries which names starts by A)
+
 
 ****
+
+IN : Multiple filter
+
+SELECT * FROM CITY WHERE COUNTRYCODE IN ('RUS', 'MEX', 'USA')
 
 
