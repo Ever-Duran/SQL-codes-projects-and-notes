@@ -5,4 +5,8 @@ SELECT * FROM PAYMENT
 
 SELECT SUM(AMOUNT) FROM PAYMENT
 
-* It shows the 
+* It shows the addition
+
+SELECT COUNT(AMOUNT) FROM PAYMENT
+
+* it shows the count
