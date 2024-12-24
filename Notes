@@ -3,7 +3,8 @@ DCL - Grant, Deny, Revoke
 DML - Select, Insert, Update, Delete
 
 ***///***
-Make sure we use compatible data structures to avoid errors
+Make sure we use compatible data structures to avoid errors.
+double-check if you're using INT or text, for example.
 ***///***
 
 Syntax for table creation:
