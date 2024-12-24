@@ -2,6 +2,10 @@ DDL - Create, Drop, Alter
 DCL - Grant, Deny, Revoke
 DML - Select, Insert, Update, Delete
 
+***///***
+Make sure we use compatible data structures to avoid errors
+***///***
+
 Syntax for table creation:
 CREATE TABLE: It starts the new table definition.
 Column name: Unique for each column
