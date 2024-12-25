@@ -28,6 +28,10 @@ MODIFYING EXISTING TABLES:
 * ALTER COLUMN: Modifies the definition of existing columns.
 * DROP COLUMN: Deletes columns from a table.
 
+ADDING ROWS:
+INSERT INTO nombreTabla (columna1, columna2)
+VALUES (valor11, valor12), (valor21, valor22), (valor31, valor32), ...
+
 ******************************
 
 ******************************
