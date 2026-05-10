@@ -22,6 +22,7 @@ Syntax on table creation:
 * CHECK: Validates data based on specific conditions.
 * UNIQUE: Assures non-key unique values.
 * RENAME: It renames a DB.
+//RENAME DATABASE was removed from MySQL years ago and is NOT supported in modern versions.//
 
 MODIFYING EXISTING TABLES:
 * ALTER TABLE: Starts modifying an existing table.
