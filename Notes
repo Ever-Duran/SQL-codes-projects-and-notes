@@ -21,6 +21,7 @@ Syntax on table creation:
 * Restrictions: NOT NULL, PRIMARY KEY, FOREIGN KEY, ETC.
 * CHECK: Validates data based on specific conditions.
 * UNIQUE: Assures non-key unique values.
+* RENAME: It renames a DB.
 
 MODIFYING EXISTING TABLES:
 * ALTER TABLE: Starts modifying an existing table.
